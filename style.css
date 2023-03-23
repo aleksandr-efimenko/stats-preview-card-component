@@ -7,9 +7,61 @@
 
   --white-main-heading-stats: hsl(0, 0%, 100%);
   --slightly-transparent-white-main-paragraph: hsla(0, 0%, 100%, 0.75);
-  --slightly-transparent-white-stat-headings-: hsla(0, 0%, 100%, 0.6);
+  --slightly-transparent-white-stat-headings: hsla(0, 0%, 100%, 0.6);
 
-  --fs-body: 0.9375rem;
   --ff-primary: "Inter", sans-serif;
   --ff-secondary: "Lexend Deca", sans-serif;
+
+  --fs-body: 0.9375rem;
+
+  --fs-header-l: 2.25rem;
+  --fw-header: 700;
+  --lh-header-l: 2.75rem;
+
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--very-dark-blue-main-background);
+}
+
+h1 {
+  font-family: var(--ff-primary); 
+  font-size: var(--fs-header-l);
+  font-weight: var(--fw-header);
+  color: white; 
+}
+span.highlighted-header {
+  color: var(--soft-violet-accent);
+}
+
+.card {
+  display: flex;
+  background-color: var(--dark-desaturated-blue-card-background);
+}
+
+.card-description {
+  /* flex: 1; */
+}
+.img-container {
+  width: 100%;
+  height: 100%;
+  /* flex: 1; */
+  background-image: url('./public/images/image-header-desktop.jpg') ;
+
+}
+
+.stat-description {
+  font-family: var(--ff-secondary);
 }
