@@ -14,10 +14,12 @@
 
   --fs-body: 0.9375rem;
 
-  --fs-header-l: 2.25rem;
+  --fs-header-l-d: 2.25rem;
+  --fs-header-l-m: 1.5rem;
+  --fs-header-l: --f
   --fw-header: 700;
-  --lh-header-l: 2.75rem;
-
+  --lh-header-l-d: 2.75rem;
+  --lh-header: var(--lh-header-l-d);
 
 }
 
