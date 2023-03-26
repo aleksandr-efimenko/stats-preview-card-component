@@ -16,11 +16,18 @@
 
   --fs-header-l-d: 2.25rem;
   --fs-header-l-m: 1.5rem;
-  --fs-header-l: --f
+  --fs-header-l: var(var(--fs-header-l-d));
   --fw-header: 700;
   --lh-header-l-d: 2.75rem;
   --lh-header: var(--lh-header-l-d);
 
+  --fs-header-m-d: 1.5rem;
+  --fs-header-m-m: 1.125rem;
+  --fs-header-m: var(--fs-header-m-d);
+
+  --fs-header-s-d: 1.125rem;
+  --fs-header-s-m: 1rem;
+  --fs-header-s: var(--fs-header-s-d);
 }
 
 * {
@@ -52,6 +59,21 @@ span.highlighted-header {
   display: flex;
   background-color: var(--dark-desaturated-blue-card-background);
 }
+/* h2 */
+h2 {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-header-l);
+  font-weight: var(--fw-header);
+  color: var(--white-main-heading-stats);
+}
+
+/* h3 */
+h3 {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-header-l);
+  font-weight: var(--fw-header);
+  color: var(--slightly-transparent-white-stat-headings);
+}
 
 .card-description {
   /* flex: 1; */
@@ -63,6 +85,7 @@ span.highlighted-header {
   background-image: url('./public/images/image-header-desktop.jpg') ;
 
 }
+
 
 .stat-description {
   font-family: var(--ff-secondary);
