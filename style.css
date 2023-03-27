@@ -114,7 +114,7 @@ span.highlighted-header {
 .stat-container {
   display: flex;
   justify-content: space-between;
-  margin-inline-end: 4rem;
+  margin-inline-end: 3rem;
 }
 
 .stat-description {
